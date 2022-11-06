@@ -1,7 +1,7 @@
 // we need a api response to use inside our service class
 
 export class ApiResponse{
-    status: string;
+    status:number;
+    message:number;
     result: any;
-    message: string;
 }
